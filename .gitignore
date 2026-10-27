@@ -1,0 +1,31 @@
+Java compiled files
+
+*.class
+backend/bin/
+backend/build/
+backend/out/
+
+IDE files
+
+.vscode/
+.idea/
+
+Logs
+
+*.log
+
+Secrets and environment files
+
+.env
+.env.*
+!.env.example
+
+Local user and enrollment data
+
+data/users.json
+data/enrollments.json
+
+Operating system files
+
+.DS_Store
+Thumbs.db
